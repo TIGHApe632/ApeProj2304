@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int x = 5;
+
+    printf("Initial value of x: %d\n", x);
+
+    // Pre-increment: increment first, then use the value
+    printf("Value after pre-increment (++x): %d\n", ++x);
+    printf("Value of x now: %d\n", x);
+
+    // Post-increment: use the value first, then increment
+    printf("Value during post-increment (x++): %d\n", x++);
+    printf("Value of x now: %d\n", x);
+
+    return 0;
+}
