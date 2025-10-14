@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // Read integer input
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    // Use bitwise AND and ternary operator to check even or odd
+    (num & 1) ? printf("Odd\n") : printf("Even\n");
+
+    return 0;
+}
