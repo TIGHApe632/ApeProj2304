@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char *line1 = "123 Maple Street";
+    char *line2 = "Springfield";
+    char *line3 = "IL, 62704";
+    char *line4 = "USA";
+
+    printf("%s\n", line1);
+    printf("%s\n", line2);
+    printf("%s\n", line3);
+    printf("%s\n", line4);
+
+    return 0;
+}
